@@ -1,0 +1,37 @@
+{
+  "2112.04867v1": {
+    "title": "RCSEDv2: Open-source web tools for visualization of imaging and spectral data",
+    "authors": [
+      "Vladislav Klochkov",
+      "Ivan Katkov",
+      "Igor Chilingarian",
+      "Kirill Grishin",
+      "Anastasia Kasparova",
+      "Vladimir Goradzhanov",
+      "Victoria Toptun",
+      "Evgenii Rubtsov",
+      "Sviatoslav Borisov"
+    ],
+    "summary": "We present a set of open-source web tools for visualization of spectral and\nimaging data, which we use in the second Reference Catalogue of Spectral Energy\nDistributions of galaxies RCSEDv2 (https://rcsed2.voxastro.org/). Using modern\nweb frameworks Quasar and Vue.js we developed interactive viewers to visualize\nspectra and SEDs of galaxies and the diagrams presenting emission line ratios\ndetermined from the analysis of their spectra (BPT diagrams). The viewers are\nbuilt in Javascript which puts a minimum load on the server side while\nproviding full interactivity for the user. The use of modern web frameworks\nprovides full customization making the viewers easily embeddable into web-sites\nof astronomical archives and databases. It also provides compatibility with\npopular third-party web-tools such as Aladin Lite.",
+    "pdf_url": "http://arxiv.org/pdf/2112.04867v1",
+    "published": "2021-12-09"
+  },
+  "2112.03291v2": {
+    "title": "Fast interactive web-based data visualizer of panoramic spectroscopic surveys",
+    "authors": [
+      "Ivan Katkov",
+      "Damir Gasymov",
+      "Joseph D. Gelfand",
+      "Viktoria Toptun",
+      "Kirill Grishin",
+      "Igor Chilingarian",
+      "Anastasia Kasparova",
+      "Vladislav Klochkov",
+      "Evgenii Rubtsov",
+      "Vladimir Goradzhanov"
+    ],
+    "summary": "Panoramic IFU spectroscopy is a core tool of modern observational astronomy\nand is especially important for galaxy physics. Many massive IFU surveys, such\nas SDSS MaNGA (10k targets), SAMI (3k targets), Califa (600 objects), Atlas3D\n(260 objects) have recently been released and made publicly available to the\nbroad astronomical community. The complexity and massiveness of the derived\ndata products from spectral cubes makes visualization of the entire dataset\nchallenging, but nevertheless very important and crucial for scientific output.\nBased on our past experience with visualization of spectral and imaging data\nbuilt in the frame of the VOxAstro Initiative projects, we are now developing\nonline web service for interactive visualizing spectroscopic IFU datasets\n(ifu.voxastro.org). Our service will provide a convenient access and\nvisualization tool for spectral cubes from publicly available surveys (MaNGA,\nSAMI, Califa, Atlas3D) and results of their modeling, as well as maps of\nparameters derived from cubes, implementing the connected views concept. Here\nwe describe the core components and functionality of the service, including\nREST API implementation on top of the Django+Postgres backend as well as a fast\nand responsive user interface built using the modern Vue.js-based framework\nQuasar.",
+    "pdf_url": "http://arxiv.org/pdf/2112.03291v2",
+    "published": "2021-12-06"
+  }
+}
